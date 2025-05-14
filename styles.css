@@ -1,0 +1,133 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Nunito', sans-serif;
+   
+}
+.first{
+   background-image: url("https://www.7up.com/images/simple-7up/tropical-header.png");
+    background-size:cover ;
+    height: 100dvh;
+    margin-top:114px ;
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #00D2C6;
+    padding: 20px;
+    position: fixed;
+    top:0;
+    left: 0;
+    width:100%;
+    z-index: 3;
+    border-bottom: 1px solid white;
+}
+.logo img{
+height: 70px;
+}
+.rt{
+    display: flex;
+    gap:50px;
+}
+.icons{
+    display: flex;
+    height: 30px;
+    gap:10px;
+}
+.listitems{
+    display: flex;
+    list-style-type: none;
+    gap: 20px;
+    color:white;
+    font-size: 20px;
+    font-weight: 600;
+}
+.elem{
+    
+    color: white;
+    padding-top: 250px;
+    font-weight: 900;
+    font-size: xx-large;
+    padding-left: 30px;
+    text-transform: uppercase;
+}
+.elem button{
+    padding:10px 40px;
+    border:1px solid white;
+    background: transparent;
+    color: white;
+    border-radius: 25px;
+    font-size: 20px;
+    font-weight: 800;
+    margin-left: 50px;
+    
+}
+.scnd{
+    background-image: url("https://www.7up.com/images/simple-7up/image2.png");
+    background-size:cover ;
+    height: 100dvh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    
+}
+.cntr{
+    background: #084922a4;
+    color: white;
+    width:600px;
+    padding:20px;
+    border-radius: 100px;
+    text-align: center;
+
+}
+.cntr h1{
+    font-size: 30px;
+    font-weight: 700;
+    padding-bottom: 20px;
+    text-transform: uppercase;
+}
+.cntr p{
+    font-size: 17px;
+    font-weight: 600;
+    padding-top: 30px 0;
+
+}
+.cntr button{
+padding: 10px 40px;
+background: transparent;
+border:2px solid white;
+color:white;
+border-radius:100px ;
+margin-top: 20px;
+font-size: 17px;
+font-weight: 600;
+}
+.td{
+    background-image: url("https://www.7up.com/images/simple-7up/image1.png");
+    background-size:cover ;
+    height: 100dvh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    
+}
+.box .listitems{
+    padding-bottom: 20px;
+    font-size:13px ;
+}
+.box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #3E3E3E;
+    color: white;
+    padding:30px;
+    font-size: 13px;
+}
